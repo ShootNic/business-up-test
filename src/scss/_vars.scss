@@ -1,0 +1,17 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --accent-font-family: "GT Eesti Pro", sans-serif;
+  --primary-font-family: "KyivType Sans", sans-serif;
+  --content-width: 1200px;
+  --container-offset: 20px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --light-color: #fff;
+  --bg-color: #FAF5F0;
+  --text-primary: #1B1B1B;
+  --text-brand: #AC873E;
+  --border-brand: #AC873E33;
+}
